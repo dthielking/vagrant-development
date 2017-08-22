@@ -1,0 +1,10 @@
+---
+- hosts: gui
+  vars_files:
+  - variables.yaml
+  become: true
+  roles:
+  - dthielking.common
+  - dthielking.xorg
+  - dthielking.i3wm
+  - dthielking.locale

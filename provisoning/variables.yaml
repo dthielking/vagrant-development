@@ -1,0 +1,20 @@
+---
+common_install_packages:
+  - awscli
+common_local_users:
+  ubuntu:
+    git_repo: https://github.com/dthielking/dots
+    git_version: master
+    sh: /bin/zsh
+
+locale_locales_conf:
+  LANG: de_DE.UTF-8
+  LANGUAGE: de_DE.UTF-8
+  LC_CTYPE: de_DE.UTF-8
+  LC_ALL: de_DE.UTF-8
+locale_vconsole_keymap: de
+locale_locales_gen:
+  - de_DE
+  - de_DE.UTF-8
+
+

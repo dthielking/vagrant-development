@@ -1,0 +1,5 @@
+---
+- src: dthielking.common
+- src: dthielking.xorg
+- src: dthielking.locale
+- src: dthielking.i3wm
