@@ -33,6 +33,8 @@ Vagrant.configure("2") do |config|
       v.customize ["modifyvm", :id, "--accelerate3d",  "on"]
       # Set Video Memory to 128MB
       v.customize ["modifyvm", :id, "--vram", "128"]
+      # Enable shared Clipboard between Host and VM 
+      v.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
     end
     # Provision of Linux Gui with ansible
     config.vm.provision "ansible_local" do |ansible|

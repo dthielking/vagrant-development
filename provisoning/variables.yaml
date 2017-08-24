@@ -7,6 +7,9 @@ common_local_users:
     git_version: master
     sh: /bin/zsh
 
+i3wm_additional_packages:
+  - gnome-terminal
+
 locale_locales_conf:
   LANG: de_DE.UTF-8
   LANGUAGE: de_DE.UTF-8
