@@ -10,6 +10,7 @@ common_local_users:
 i3wm_additional_packages:
   - gnome-terminal
   - virtualbox-guest-x11
+  - virtualbox-guest-dkms
 
 locale_locales_conf:
   LANG: de_DE.UTF-8
